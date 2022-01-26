@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">vrmz</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="online_voter_s_registration_management_system">ONLINE VOTER’S REGISTRATION MANAGEMENT SYSTEM</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="register">REGISTER</string>
+    <string name="enter_name">Enter username</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="citizen_verification">CITIZEN VERIFICATION</string>
+    <string name="voter_s_registration_form">VOTER\'S REGISTRATION FORM</string>
+    <string name="register_and_submit">Submit</string>
+    <string name="enter_identification_number">Enter Identification Number</string>
+    <string name="enter_date_of_birth">Enter Date Of Birth</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="male_or_female">Male or Female</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="select_your_gender">Select Your Gender</string>
+    <string name="enter_county">Select County</string>
+    <string name="enter_sub_county">Select Sub-County</string>
+    <string name="enter_ward">Select Ward</string>
+    <string name="enter_location">Select Location</string>
+    <string name="enter_voting_center">Select Voting Center</string>
+    <string name="county">County</string>
+    <string name="visit_our_website">Visit Our Website</string>
+    <string name="vrms_co_ke">vrms.co.ke</string>
+    <string name="t_t_t_t_t_t_add_photo_t_t_t_t_t_t_t_t_t_t_t_t_t_t_upload_fingerprint">\t\t\t\t\t\tAdd Photo\t\t\t\t\t\t\t\t\t\t\t\t\t\t Upload Fingerprint</string>
+    <string name="log_out">lOG OUT</string>
+    <string name="user_email">User Email</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="citizen_id">Citizen ID</string>
+    <string name="user_name">User Name</string>
+    <string name="user_registration_details">User Registration Details</string>
+    <string name="id_no">ID NO:</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="age">Age:</string>
+    <string name="voter_registration_details">Voter registration Details</string>
+    <string name="gender">Gender:</string>
+    <string name="sub_county">Sub-County:</string>
+    <string name="ward">Ward</string>
+    <string name="location">Location:</string>
+    <string name="voting_center">Voting center:</string>
+    <string name="vote_with_confidence">VOTE WITH CONFIDENCE</string>
+    <string name="thank_you_for_registering_as_a_kenyan_voter_hongera">Thank you for registering as a kenyan voter!!! HONGERA</string>
+
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/key"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_email_address"
+            android:textSize="10sp"
+            android:id="@+id/edEmail"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            tools:ignore="SmallSp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_password"
+            android:textSize="10sp"
+            android:id="@+id/edPass"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            tools:ignore="SmallSp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginVertical="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btnLogin"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/login"
+        android:layout_marginHorizontal="120dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/already_have_an_account"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:textStyle="bold"
+        android:id="@+id/tvSignUp"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textColor="#1061C3"
+        android:gravity="center"
+        />
+
+</LinearLayout>
