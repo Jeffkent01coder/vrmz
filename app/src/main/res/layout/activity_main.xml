@@ -20,11 +20,10 @@
         />
 
     <ImageView
-        android:paddingTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:src="@drawable/kenya"
-        />
+        android:paddingTop="10dp"
+        android:src="@drawable/kenya" />
 
     <TextView
         android:layout_width="match_parent"
